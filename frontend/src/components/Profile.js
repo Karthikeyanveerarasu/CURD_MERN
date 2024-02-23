@@ -114,6 +114,9 @@ function Profile() {
                   />
                 </label>
               </div>
+                    <button classname="btn btn-danger p-3" onClick={()=>navigate("/login")}>
+                    logout
+                    </button>
             </div>
           </div>
           <div class="col-xl-8">
